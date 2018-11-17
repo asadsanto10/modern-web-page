@@ -1173,6 +1173,12 @@ a{
       }
     }
   }
+  #modal1{
+    max-width: 90% !important;
+  }
+  #modal1 input, #modal1 textarea{
+    max-width: 100% !important;
+  }
 }
 
 /*contacts modal start*/
