@@ -930,7 +930,11 @@ a {
   #contact .respon-siv {
     margin-top: 75px !important; }
     #contact .respon-siv h2, #contact .respon-siv p {
-      text-align: center; } }
+      text-align: center; }
+  #modal1 {
+    max-width: 90% !important; }
+  #modal1 input, #modal1 textarea {
+    max-width: 100% !important; } }
 
 /*contacts modal start*/
 @media only screen and (max-width: 576px) {
