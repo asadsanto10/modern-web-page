@@ -200,6 +200,9 @@ a {
     background: #fff;
     color: #4a4a4a;
     -webkit-box-shadow: 1px 4px 20px 0px #7b7b7b26;
+    -moz-box-shadow: 1px 4px 20px 0px #7b7b7b26;
+    -ms-box-shadow: 1px 4px 20px 0px #7b7b7b26;
+    -o-box-shadow: 1px 4px 20px 0px #7b7b7b26;
     box-shadow: 1px 4px 20px 0px #7b7b7b26;
     -webkit-transition: all ease 0.3s;
     -o-transition: all ease 0.3s;
@@ -215,6 +218,9 @@ a {
       color: #fff;
       background: #64b1ff;
       -webkit-box-shadow: 1px 4px 20px 0px #7b7b7b6b;
+      -moz-box-shadow: 1px 4px 20px 0px #7b7b7b6b;
+      -ms-box-shadow: 1px 4px 20px 0px #7b7b7b6b;
+      -o-box-shadow: 1px 4px 20px 0px #7b7b7b6b;
       box-shadow: 1px 4px 20px 0px #7b7b7b6b; }
     .navbar .navbar-nav button:hover i {
       color: #fff; }
@@ -269,7 +275,8 @@ a {
 #build {
   position: relative;
   margin-top: 200px;
-  z-index: 1; }
+  z-index: 1;
+  overflow: hidden; }
   #build h2 {
     font-family: "Roboto Condensed", sans-serif;
     color: #4a4a4a;
@@ -307,12 +314,16 @@ a {
       color: #fff;
       border-color: transparent;
       -webkit-box-shadow: 1px 3px 10px 0px #6b6e7180;
+      -moz-box-shadow: 1px 3px 10px 0px #6b6e7180;
+      -ms-box-shadow: 1px 3px 10px 0px #6b6e7180;
+      -o-box-shadow: 1px 3px 10px 0px #6b6e7180;
       box-shadow: 1px 3px 10px 0px #6b6e7180; }
   #build .btn2 {
     margin-left: 22px; }
 
 /*build area end*/
 #brand {
+  overflow: hidden;
   padding-top: 45px; }
   #brand img {
     padding-left: 50px; }
@@ -325,6 +336,7 @@ a {
 /*service area end*/
 /*service area start*/
 #service {
+  overflow: hidden;
   padding: 50px 0px; }
   #service h2 {
     font-family: "Roboto Condensed", sans-serif;
@@ -362,9 +374,15 @@ a {
       transition: all 0.5s ease;
       cursor: pointer;
       -webkit-box-shadow: 2px 3px 13px 0px #ababab61;
+      -moz-box-shadow: 2px 3px 13px 0px #ababab61;
+      -ms-box-shadow: 2px 3px 13px 0px #ababab61;
+      -o-box-shadow: 2px 3px 13px 0px #ababab61;
       box-shadow: 2px 3px 13px 0px #ababab61; }
       #service .btn-dgn button:hover, #service .btn-dgn a:hover {
         -webkit-box-shadow: 1px 3px 9px 0px #6b6e7126;
+        -moz-box-shadow: 1px 3px 9px 0px #6b6e7126;
+        -ms-box-shadow: 1px 3px 9px 0px #6b6e7126;
+        -o-box-shadow: 1px 3px 9px 0px #6b6e7126;
         box-shadow: 1px 3px 9px 0px #6b6e7126;
         color: #64b1ff; }
     #service .btn-dgn .vidcls {
@@ -375,12 +393,19 @@ a {
       height: 50px;
       font-size: 20px;
       -webkit-box-shadow: 2px 3px 13px 0px #ababab61;
+      -moz-box-shadow: 2px 3px 13px 0px #ababab61;
+      -ms-box-shadow: 2px 3px 13px 0px #ababab61;
+      -o-box-shadow: 2px 3px 13px 0px #ababab61;
       box-shadow: 2px 3px 13px 0px #ababab61;
       -webkit-transition: all 0.5s ease;
       -o-transition: all 0.5s ease;
-      transition: all 0.5s ease; }
+      transition: all 0.5s ease;
+      cursor: pointer; }
       #service .btn-dgn .vidcls:hover {
         -webkit-box-shadow: 1px 3px 9px 0px #6b6e7126;
+        -moz-box-shadow: 1px 3px 9px 0px #6b6e7126;
+        -ms-box-shadow: 1px 3px 9px 0px #6b6e7126;
+        -o-box-shadow: 1px 3px 9px 0px #6b6e7126;
         box-shadow: 1px 3px 9px 0px #6b6e7126;
         background: #64b1ff;
         color: #fff; }
@@ -441,163 +466,169 @@ a {
 
 /*service area end*/
 /*worl area start*/
-#work .work-text h2 {
-  font-family: "Roboto Condensed", sans-serif;
-  font-size: 26px;
-  font-weight: bolder;
-  padding-bottom: 20px;
-  color: #4a4a4a;
-  text-transform: capitalize; }
-
-#work .work-text p {
-  font-family: "Muli", sans-serif;
-  font-size: 15px;
-  color: #4a4a4a;
-  line-height: 25px; }
-
-#work .work-text button {
-  margin-top: 27px;
-  height: 50px;
-  padding: 11px 33px;
-  background: transparent;
-  border: 1px solid #4a4a4a;
-  border-radius: 50px;
-  font-size: 17px;
-  font-family: "Muli", sans-serif;
-  color: #4a4a4a;
-  text-transform: uppercase;
-  font-weight: 600;
-  -webkit-transition: all 0.5s ease;
-  -o-transition: all 0.5s ease;
-  transition: all 0.5s ease;
-  cursor: pointer; }
-  #work .work-text button:hover {
-    background: #64b1ff;
-    color: #fff;
-    border-color: transparent;
-    -webkit-box-shadow: 1px 3px 10px 0px #6b6e7180;
-    box-shadow: 1px 3px 10px 0px #6b6e7180; }
-
-#work .work-dgn .work-design:focus {
-  outline: none !important; }
-
-#work .work-dgn .work-design a:focus {
-  outline: none !important; }
-
-#work .work-dgn .work-design img {
-  height: 350px;
-  -webkit-transition: all 0.3s ease;
-  -o-transition: all 0.3s ease;
-  transition: all 0.3s ease; }
-  #work .work-dgn .work-design img:focus {
-    outline: none !important; }
-  #work .work-dgn .work-design img:hover {
-    -webkit-box-shadow: 4px 0px 20px 0px #b3b3b33d;
-    box-shadow: 4px 0px 20px 0px #b3b3b33d;
-    -webkit-transform: translate(13px);
-    -ms-transform: translate(13px);
-    transform: translate(13px);
-    -webkit-transform-origin: left;
-    -ms-transform-origin: left;
-    transform-origin: left; }
-
-#work .activediv {
-  padding: 50px 0;
-  display: none;
-  overflow-x: visible;
-  overflow-y: visible; }
-  #work .activediv .slick-track {
-    opacity: 1 !important;
-    width: 14430px !important; }
-  #work .activediv .work-design {
-    width: 370px !important; }
-
-#work .activ-dgn {
-  display: block; }
-
-/*worl area end*/
-/*work-folow area start*/
-#work-flow h2 {
-  font-family: "Roboto Condensed", sans-serif;
-  font-size: 26px;
-  font-weight: bolder;
-  padding-bottom: 25px;
-  color: #4a4a4a;
-  text-align: right; }
-
-#work-flow p {
-  font-family: "Muli", sans-serif;
-  font-size: 17px;
-  color: #4a4a4a;
-  text-align: right;
-  padding-bottom: 65px;
-  line-height: 25px; }
-
-#work-flow .btn-dgn {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: end;
-  -ms-flex-pack: end;
-  justify-content: flex-end; }
-  #work-flow .btn-dgn button {
+#work {
+  overflow: hidden; }
+  #work .work-text h2 {
+    font-family: "Roboto Condensed", sans-serif;
+    font-size: 26px;
+    font-weight: bolder;
+    padding-bottom: 20px;
+    color: #4a4a4a;
+    text-transform: capitalize; }
+  #work .work-text p {
+    font-family: "Muli", sans-serif;
+    font-size: 15px;
+    color: #4a4a4a;
+    line-height: 25px; }
+  #work .work-text button {
+    margin-top: 27px;
+    height: 50px;
     padding: 11px 33px;
     background: transparent;
+    border: 1px solid #4a4a4a;
     border-radius: 50px;
     font-size: 17px;
     font-family: "Muli", sans-serif;
     color: #4a4a4a;
-    height: 50px;
     text-transform: uppercase;
     font-weight: 600;
     -webkit-transition: all 0.5s ease;
     -o-transition: all 0.5s ease;
     transition: all 0.5s ease;
-    cursor: pointer;
-    -webkit-box-shadow: 2px 3px 13px 0px #ababab61;
-    box-shadow: 2px 3px 13px 0px #ababab61; }
-    #work-flow .btn-dgn button:hover {
-      webkit-box-shadow: 1px 3px 9px 0px #6b6e7126;
-      -webkit-box-shadow: 1px 3px 9px 0px #6b6e7126;
-      box-shadow: 1px 3px 9px 0px #6b6e7126;
-      color: #64b1ff; }
+    cursor: pointer; }
+    #work .work-text button:hover {
+      background: #64b1ff;
+      color: #fff;
+      border-color: transparent;
+      -webkit-box-shadow: 1px 3px 10px 0px #6b6e7180;
+      -moz-box-shadow: 1px 3px 10px 0px #6b6e7180;
+      -ms-box-shadow: 1px 3px 10px 0px #6b6e7180;
+      -o-box-shadow: 1px 3px 10px 0px #6b6e7180;
+      box-shadow: 1px 3px 10px 0px #6b6e7180; }
+  #work .work-dgn .work-design:focus {
+    outline: none !important; }
+  #work .work-dgn .work-design a:focus {
+    outline: none !important; }
+  #work .work-dgn .work-design img {
+    height: 350px;
+    -webkit-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease; }
+    #work .work-dgn .work-design img:focus {
+      outline: none !important; }
+    #work .work-dgn .work-design img:hover {
+      -webkit-box-shadow: 4px 0px 20px 0px #b3b3b33d;
+      box-shadow: 4px 0px 20px 0px #b3b3b33d;
+      -webkit-transform: translate(13px);
+      -ms-transform: translate(13px);
+      transform: translate(13px);
+      -webkit-transform-origin: left;
+      -ms-transform-origin: left;
+      transform-origin: left; }
+  #work .activediv {
+    padding: 50px 0;
+    display: none;
+    overflow-x: visible;
+    overflow-y: visible; }
+    #work .activediv .slick-track {
+      opacity: 1 !important;
+      width: 14430px !important; }
+    #work .activediv .work-design {
+      width: 370px !important; }
+  #work .activ-dgn {
+    display: block; }
+
+/*worl area end*/
+/*work-folow area start*/
+#work-flow {
+  overflow: hidden; }
+  #work-flow h2 {
+    font-family: "Roboto Condensed", sans-serif;
+    font-size: 26px;
+    font-weight: bolder;
+    padding-bottom: 25px;
+    color: #4a4a4a;
+    text-align: right; }
+  #work-flow p {
+    font-family: "Muli", sans-serif;
+    font-size: 17px;
+    color: #4a4a4a;
+    text-align: right;
+    padding-bottom: 65px;
+    line-height: 25px; }
+  #work-flow .btn-dgn {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: end;
+    -ms-flex-pack: end;
+    justify-content: flex-end; }
+    #work-flow .btn-dgn button {
+      padding: 11px 33px;
+      background: transparent;
+      border-radius: 50px;
+      font-size: 17px;
+      font-family: "Muli", sans-serif;
+      color: #4a4a4a;
+      height: 50px;
+      text-transform: uppercase;
+      font-weight: 600;
+      -webkit-transition: all 0.5s ease;
+      -o-transition: all 0.5s ease;
+      transition: all 0.5s ease;
+      cursor: pointer;
+      -webkit-box-shadow: 2px 3px 13px 0px #ababab61;
+      -moz-box-shadow: 2px 3px 13px 0px #ababab61;
+      -ms-box-shadow: 2px 3px 13px 0px #ababab61;
+      -o-box-shadow: 2px 3px 13px 0px #ababab61;
+      box-shadow: 2px 3px 13px 0px #ababab61; }
+      #work-flow .btn-dgn button:hover {
+        -webkit-box-shadow: 1px 3px 9px 0px #6b6e7126;
+        -moz-box-shadow: 1px 3px 9px 0px #6b6e7126;
+        -ms-box-shadow: 1px 3px 9px 0px #6b6e7126;
+        -o-box-shadow: 1px 3px 9px 0px #6b6e7126;
+        box-shadow: 1px 3px 9px 0px #6b6e7126;
+        color: #64b1ff; }
 
 /*work-folow area end*/
 /*contact area star*/
-#contact h2 {
-  font-family: "Roboto Condensed", sans-serif;
-  font-size: 26px;
-  font-weight: bolder;
-  padding-bottom: 10px;
-  color: #4a4a4a; }
-
-#contact p {
-  font-family: "Muli", sans-serif;
-  font-size: 17px;
-  color: #4a4a4a;
-  padding-bottom: 15px;
-  line-height: 25px; }
-
-#contact .btn-dgn button {
-  padding: 11px 33px;
-  background: transparent;
-  border: 1px solid #4a4a4a;
-  border-radius: 50px;
-  font-size: 17px;
-  font-family: "Muli", sans-serif;
-  color: #4a4a4a;
-  text-transform: uppercase;
-  font-weight: 600;
-  -webkit-transition: all 0.5s ease;
-  -o-transition: all 0.5s ease;
-  transition: all 0.5s ease;
-  cursor: pointer; }
-  #contact .btn-dgn button:hover {
-    background: #64b1ff;
-    color: #fff;
-    border-color: transparent;
-    -webkit-box-shadow: 1px 3px 10px 0px #6b6e7180;
-    box-shadow: 1px 3px 10px 0px #6b6e7180; }
+#contact {
+  overflow: hidden; }
+  #contact h2 {
+    font-family: "Roboto Condensed", sans-serif;
+    font-size: 26px;
+    font-weight: bolder;
+    padding-bottom: 10px;
+    color: #4a4a4a; }
+  #contact p {
+    font-family: "Muli", sans-serif;
+    font-size: 17px;
+    color: #4a4a4a;
+    padding-bottom: 15px;
+    line-height: 25px; }
+  #contact .btn-dgn button {
+    padding: 11px 33px;
+    background: transparent;
+    border: 1px solid #4a4a4a;
+    border-radius: 50px;
+    font-size: 17px;
+    font-family: "Muli", sans-serif;
+    color: #4a4a4a;
+    text-transform: uppercase;
+    font-weight: 600;
+    -webkit-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+    cursor: pointer; }
+    #contact .btn-dgn button:hover {
+      background: #64b1ff;
+      color: #fff;
+      border-color: transparent;
+      -webkit-box-shadow: 1px 3px 10px 0px #6b6e7180;
+      -moz-box-shadow: 1px 3px 10px 0px #6b6e7180;
+      -ms-box-shadow: 1px 3px 10px 0px #6b6e7180;
+      -o-box-shadow: 1px 3px 10px 0px #6b6e7180;
+      box-shadow: 1px 3px 10px 0px #6b6e7180; }
 
 #modal1 {
   z-index: 99999 !important;
@@ -652,6 +683,9 @@ a {
       color: #fff;
       border-color: transparent;
       -webkit-box-shadow: 1px 3px 10px 0px #6b6e7180;
+      -moz-box-shadow: 1px 3px 10px 0px #6b6e7180;
+      -ms-box-shadow: 1px 3px 10px 0px #6b6e7180;
+      -o-box-shadow: 1px 3px 10px 0px #6b6e7180;
       box-shadow: 1px 3px 10px 0px #6b6e7180; }
     #modal1 button:hover i {
       color: #fff; }
@@ -689,6 +723,7 @@ a {
 /*contact area end*/
 /*footer area star */
 #footer {
+  overflow: hidden;
   background: #f7f7f7; }
   #footer .logo {
     padding-bottom: 15px; }
