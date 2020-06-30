@@ -145,10 +145,13 @@ a {
     content: '';
     position: absolute;
     background: url("../img/1.png") no-repeat;
-    top: -200px;
-    right: 0px;
+    top: -285px;
+    right: 0;
     height: 100%;
-    width: 22%; }
+    width: 100%;
+    left: 0%;
+    background-position: right;
+    }
   .design::after {
     content: '';
     position: absolute;
